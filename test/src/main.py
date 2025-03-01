@@ -1,5 +1,5 @@
 import os
-from dotenv import dotenv_values
+from dotenv import load_dotenv, dotenv_values
 import streamlit as st
 from groq import Groq
 
